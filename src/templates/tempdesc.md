@@ -1,0 +1,2 @@
+Propósito: A pasta templates é específica para armazenar arquivos de template HTML. Templates são modelos de páginas HTML que permitem a inserção ou alteração dinâmica de conteúdo. Por exemplo, pode ter um template para postagens de blog que é preenchido com dados diferentes para cada postagem.
+Por que usar: Usar templates ajuda a evitar a repetição de código HTML e permite gerar páginas dinamicamente com base em dados variáveis (como títulos de postagens, conteúdo, etc.)

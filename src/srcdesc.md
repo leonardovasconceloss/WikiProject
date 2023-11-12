@@ -1,0 +1,2 @@
+A pasta src (abreviação de "source", que significa "fonte" em inglês) é usado para armazenar todo o código-fonte do projeto. Isso inclui scripts Python, arquivos HTML (que não são templates), e qualquer outro código do projeto.
+Motivo de uso: Manter o código-fonte em uma pasta separada, pois ajuda a organizar melhor o projeto, especialmente à medida que ele cresce e se torna mais complexo.
