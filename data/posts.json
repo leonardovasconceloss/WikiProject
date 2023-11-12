@@ -1,0 +1,22 @@
+{
+    "postagens": [
+        {
+            "titulo": "A Revolução da Tecnologia",
+            "descriao": "Uma análise detalhada de como a tecnologia mudou o mundo nos últimos vinte anos, abrangendo desde smartphones até inteligência artificial.",
+            "autor": "Carlos augusto",
+            "data": "2020-08-20"
+        },
+        {
+            "titulo": "Tendências em Desenvolvimento de Software e DevOps",
+            "descriao": "Explorando as últimas tendências e melhores práticas em desenvolvimento de software, com um olhar especial para a integração contínua e entrega contínua (CI/CD) no mundo do DevOps.",
+            "autor": "Maria santos",
+            "data": "2023-10-12"
+        },
+        {
+            "titulo": "A Drástica Aceleração Tecnologica",
+            "descriao": "Jose da silva",
+            "autor": "Robert souza",
+            "data": "2021-09-20"
+        }
+    ]
+}
