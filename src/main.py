@@ -2,6 +2,16 @@ import markdown
 import os
 import frontmatter
 
+# Caminho para o diretório do script
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+# Caminho para o arquivo template.html
+template_path = os.path.join(dir_path, 'templates', 'template.html')
+
+# Carregar template HTML
+with open(template_path, 'r', encoding='utf-8') as arquivo:
+    template_html = arquivo.read()
+
 def limpar_diretorio_html(diretorio, titulos_atuais):
     for arquivo in os.listdir(diretorio):
         if arquivo.endswith('.html') and arquivo not in titulos_atuais:
