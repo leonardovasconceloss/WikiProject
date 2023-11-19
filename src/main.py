@@ -8,6 +8,8 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 # Caminho para o arquivo template.html
 template_path = os.path.join(dir_path, 'templates', 'template.html')
 
+base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 def limpar_diretorio_html(diretorio, titulos_atuais):
     for arquivo in os.listdir(diretorio):
         if arquivo.endswith('.html') and arquivo not in titulos_atuais:
@@ -37,10 +39,10 @@ with open(template_path, 'r', encoding='utf-8') as arquivo:
     template_html = arquivo.read()
 
 # Diretório dos arquivos Markdown
-diretorio_markdown = '../postsmd'
+diretorio_markdown = os.path.join(base_path, 'postsmd')
 
 # Preparar para limpar o diretório de saída
-diretorio_html = '../postshtml'
+diretorio_html = os.path.join(base_path, 'postshtml')
 titulos_atuais = []
 
 # Criar o diretório se não existir
