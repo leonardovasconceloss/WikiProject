@@ -1,3 +1,11 @@
+---
+titulo: "Aceleração Tech"
+conteudo: "Nome do Autor"
+data: "2023-01-01"
+autor: "Nome do Autor"
+
+---
+
 # A Drástica Aceleração Tecnológica
 
 ## Introdução

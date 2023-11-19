@@ -1,3 +1,11 @@
+---
+titulo: "Revolução da Tec"
+conteudo: "Nome do Autor"
+data: "2023-01-01"
+autor: "Nome do Autor"
+---
+
+
 # A Revolução da Tecnologia
 
 ## Introdução
