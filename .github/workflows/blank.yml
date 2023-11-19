@@ -20,7 +20,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install markdown frontmatter 
+        pip install -r requirements.txt
 
     - name: Run Script
       run: python src/main.py 
