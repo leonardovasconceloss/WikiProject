@@ -24,6 +24,19 @@ jobs:
 
     - name: Run Script
       run: python src/main.py 
+    - name: Generate Index Page
+      run: |
+        echo "<html><head><title>My Site</title></head><body>" > index.html
+        for htmlfile in $(ls postshtml/*.html); do
+          title=$(basename "$htmlfile" .html)
+          echo "<a href='./$title.html'>$title</a><br>" >> index.html
+        done
+        echo "</body></html>" >> index.html
+      shell: bash
+
+    - name: Move Index to Publish Directory
+      run: mv index.html ./postshtml
+   
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
